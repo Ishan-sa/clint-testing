@@ -56,13 +56,7 @@ export default function Home() {
                   key={i}
                   className="w-[125px] h-[125px] flex justify-center items-center shadow-2xl rounded-lg"
                 >
-                  <Image
-                    width={95}
-                    height={95}
-                    src={img}
-                    quality={100}
-                    alt=""
-                  />
+                  <Image width={95} height={95} src={img} quality={100} />
                 </div>
               );
             })}
@@ -74,13 +68,7 @@ export default function Home() {
                   key={i}
                   className="w-[125px] h-[125px] flex justify-center items-center shadow-2xl rounded-lg"
                 >
-                  <Image
-                    width={95}
-                    height={95}
-                    src={img}
-                    quality={100}
-                    alt=""
-                  />
+                  <Image width={95} height={95} src={img} quality={100} />
                 </div>
               );
             })}
@@ -96,7 +84,6 @@ export default function Home() {
                   width={294}
                   src={projectImg[0]}
                   quality={100}
-                  alt=""
                 />
               </div>
               <p className="max-w-[597px] text-3xl text-center">
@@ -112,7 +99,6 @@ export default function Home() {
                   width={294}
                   src={projectImg[1]}
                   quality={100}
-                  alt=""
                 />
               </div>
               <p className="max-w-[597px] text-3xl text-center">
@@ -127,7 +113,6 @@ export default function Home() {
                   width={294}
                   src={projectImg[2]}
                   quality={100}
-                  alt=""
                 />
               </div>
               <p className="max-w-[597px] text-3xl text-center">
@@ -142,7 +127,6 @@ export default function Home() {
                   width={256}
                   src={projectImg[3]}
                   quality={100}
-                  alt=""
                 />
               </div>
               <p className="max-w-[597px] text-3xl text-center">
@@ -157,7 +141,6 @@ export default function Home() {
                   width={294}
                   src={projectImg[4]}
                   quality={100}
-                  alt=""
                 />
               </div>
               <p className="max-w-[597px] text-3xl text-center">
